@@ -278,6 +278,30 @@ left: 40%;
 
 }
 
+.skill:hover .cp-skill{
+    filter: blur(2px);
+}
+.skill:hover .pf-skill{
+    filter: blur(2px);
+
+}
+
+.skill:hover .cp-skill:hover{
+    filter: blur(0px);
+    transform: scale(1.2);
+    transition: .2s ease;
+    cursor: pointer;
+    z-index: 2;
+}
+.skill:hover .pf-skill:hover{
+    filter: blur(0px);
+    transform: scale(1.2);
+    transition: .2s ease;
+    cursor: pointer;
+    z-index: 2;
+}
+
+
 footer{
     background-color: #614BC3;
     color: white;
@@ -428,5 +452,11 @@ footer{
     .about{
         height: 600px;
         padding-bottom:50px;
+    }
+        .cp-skill{
+        margin-top: 10px;
+    }
+    .pf-skill{
+        margin-top: 40px;
     }
 }
