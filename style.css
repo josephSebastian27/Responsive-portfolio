@@ -426,6 +426,7 @@ footer{
 }
 @media (max-width:390px){
     .about{
-        height: 800px;
+        height: 600px;
+        padding-bottom:50px;
     }
 }
